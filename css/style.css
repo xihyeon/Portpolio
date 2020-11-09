@@ -9,10 +9,9 @@ body{
 
 #wrap{
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
-  background: pink;
 
 }
 header{
@@ -37,14 +36,23 @@ header{
 
 /* header style */
 
-nav > #main_gnb{
+#main_gnb{
   position: absolute;
   top: 0;
   right: 80px;
 }
-nav > #main_gnb > li {
+#main_gnb > ul > li {
   position: relative;
   display: inline-block;
   margin-left: 60px;
   float: left;
+}
+
+
+
+@media ( max-width: 768px ) {
+  body {
+    width: 100%;
+    background: red;
+  }
 }
