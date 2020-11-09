@@ -1,5 +1,50 @@
 @charset "UTF-8";
-
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
 body{
-  background: red;
+  width: 100%;
+  font-size: 18px;
+}
+
+#wrap{
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  background: pink;
+
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 90px;
+}
+/* 햄버거 메뉴  */
+.ham_menu{
+  position: absolute;
+  float: right;
+  right: 0;
+}
+.ham_menu span{
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 4px;
+  margin: 5px;
+  background: black;
+}
+
+/* header style */
+
+nav > #main_gnb{
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+nav > #main_gnb > li {
+  position: relative;
+  display: inline-block;
+  margin-left: 60px;
+  float: left;
 }
