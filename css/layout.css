@@ -1,4 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+body{
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 html,body{ height: 100%; }
 
 #wrap{
@@ -6,13 +16,14 @@ html,body{ height: 100%; }
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
   overflow: hidden;
 }
 
 header{
   position: relative;
   width: 100%;
-  height: 60px;
+  height: 40px;
   margin-top: 60px;
   border-bottom: 1px solid black;
 }
@@ -45,6 +56,10 @@ header{
   margin-right: 100px;
 }
 
+footer{
+  display: flex;
+  margin-bottom: auto;
+}
 
 
 
