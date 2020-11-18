@@ -9,23 +9,28 @@ body{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-html,body{ height: 100%; }
+html,body{ height: auto; }
 
 #wrap{
+  position: absolute;
+}
+
+.inner{
   position: relative;
   max-width: 1440px;
   height: 100%;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 0 2rem;
   overflow: hidden;
 }
 
 header{
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: calc(100% - 300px);
   height: 40px;
-  margin-top: 60px;
+  margin-top: 10px;
   border-bottom: 1px solid black;
+  z-index: 30;
 }
 #logo{
   display: inline-block;
@@ -57,8 +62,6 @@ header{
 }
 
 footer{
-  display: flex;
-  margin-bottom: auto;
 }
 
 
@@ -70,19 +73,23 @@ footer{
 
 @media screen and ( max-width: 1200px ) {
   body{ background: red; }
+  header{width: calc(100% - 300px);}
 }
 
 @media screen and ( max-width: 1024px ) {
   body{ background: blue; }
+  #main_gnb{
+    display: none;
 }
+header{width: calc(100% - 300px);}
 
 @media screen and ( max-width: 768px ) {
   body{ background: green; }
-  #main_gnb{
-    display: none;
   }
+  header{width: calc(100% - 300px);}
 }
 
 @media screen and ( max-width: 380px ) {
   body{ background: yellow; }
+  header{width: calc(100% - 300px);}
 }
