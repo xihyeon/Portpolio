@@ -3,15 +3,18 @@
 
 <head>
      <meta charset="UTF-8">
-     <title>TITLE</title>
+     <title>portfolio</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, macium-scale=1.0, minimum-scale=1.0"/>
      <!-- css 초기화 , 스타일링 -->
      <link rel="stylesheet" href="css/initial.min.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
      <link rel="stylesheet" href="css/layout.css"/>
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <![endif]-->
+
      <script src="js/jquery.min.js"></script>
+     <script src="js/swiper-bundle.min.js"></script>
      <script src="js/common.js"></script>
  </head>
 
@@ -21,10 +24,34 @@
     <header id="header" class="load">
       <h1><a href="index.html">Logo</a></h1>
     </header>
-    <main class="container"></main>
+    <main class="container">
+      <!-- slider main content -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- slides -->
+            <div class="swiper-slide">
+              <div class="row">dd</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row">dd</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row">dd</div>
+            </div>
+        </div>
+      </div>
+    </main>
     <footer id="footer"></footer>
   </div>
   <!-- //wrap-->
+  <script>
+		var swiper = new Swiper('.swiper-container', {
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: true,
+      },
+    });
+	</script>
  </body>
 
  </html>
