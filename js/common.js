@@ -8,7 +8,6 @@ $(function(){
     //e.preventDefault();
     return false;
   });
-
   /*scroll 상단 이동버튼 노출*/
   $(window).scroll(function(){
     if( $(this).scrollTop() == 0 ){
@@ -27,7 +26,7 @@ $(function(){
       if( thisOffset.top <= thisScrollTop + 150 && thisScrollTop <= thisOffset.top + wHeight ){
         $(this).addClass("active");
       }
-    })
+    });
   });
 
 

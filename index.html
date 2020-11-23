@@ -1,50 +1,54 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <title>portfolio</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, macium-scale=1.0, minimum-scale=1.0"/>
-     <!-- css 초기화 , 스타일링 -->
-     <link rel="stylesheet" href="css/initial.min.css"/>
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-     <link rel="stylesheet" href="css/layout.css"/>
-     <!--[if lt IE 9]>
-       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-     <![endif]-->
+	<meta charset="utf-8">
+	<title>Swiper demo</title>
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
 
-     <script src="js/jquery.min.js"></script>
-     <script src="js/swiper-bundle.min.js"></script>
-     <script src="js/common.js"></script>
- </head>
+<body>
+	<header class="header">
+		<h1 class="logo"><a href="#">Logo</a></h1>
+		<div class="ham_menu">
+			<div class="ham_inner">
+				<span class="top"></span>
+				<span class="middle"></span>
+			</div>
+		</div>
+	</header>
+	<div class="wrap">
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide section">
+					<div class="row">
+						<div class="content_inner">
+							sfdfdfsdfds
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide section">
+					<div class="row">
+						66
+					</div>
+				</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+			</div>
+			<!-- Add Scrollbar -->
+			<div class="swiper-scrollbar"></div>
+		</div>
+	</div>
 
- <body>
-  <!-- wrap -->
-  <div id="wrap">
-    <header id="header" class="load">
-      <h1><a href="index.html">Logo</a></h1>
-    </header>
-    <main class="container">
-      <!-- slider main content -->
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <!-- slides -->
-            <div class="swiper-slide">
-              <div class="row">dd</div>
-            </div>
-            <div class="swiper-slide">
-              <div class="row">dd</div>
-            </div>
-            <div class="swiper-slide">
-              <div class="row">dd</div>
-            </div>
-        </div>
-      </div>
-    </main>
-    <footer id="footer"></footer>
-  </div>
-  <!-- //wrap-->
-  <script>
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
 		var swiper = new Swiper('.swiper-container', {
       scrollbar: {
         el: '.swiper-scrollbar',
@@ -52,6 +56,6 @@
       },
     });
 	</script>
- </body>
+</body>
 
- </html>
+</html>
