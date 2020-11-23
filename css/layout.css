@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 
@@ -63,23 +64,32 @@ body {
 }
 
 /* main title Text */
+.txtBox{
+  position: relative;
+}
+.mainSecTit{
+  position: absolute;
+  top: 100px;
+}
+
 .textAni{
   position: relative;
   display: block;
   font-size: 60px;
-  line-height: 20px;
-  width: auto;
+  line-height: 30px;
+  min-width: 800px;
 }
 
 /* footer */
 .footer{
-  width: 100%;
-  height: 100px;
-  position: flex;
-  align-items: flex-end;
-  flex-flow: column;
-  float: bottom
-  bottom: 20px;
+  position: fixed;
+  z-index: 30;
+  text-align: center;
+  height: 80px;
+  border-top: 1px solid #f1f1f1;
+  left: 0;
+  right: 0;
+  bottom:0;
 }
 
 
