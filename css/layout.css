@@ -19,19 +19,28 @@ body {
 .header {
   position: fixed;
   display: inline-block;
+  min-width: 500px;
   width: 100%;
   z-index: 30;
 }
 .header .logo{
   float: left;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 
 /* hambuger_menu */
-.header .ham_menu{
+  .ham_menu{
+  position: relative;
   background: red;
   float: right;
+  margin-right: 60px;
+  margin-top: 30px;
   height: 60px;
   width: 60px;
+}
+.ham_menu .ham_inner{
+  position: relative;
 }
 
 .warp {
@@ -39,8 +48,7 @@ body {
 }
 
 .section .row {
-  background: pink;
-  border: 1px solid red;
+  padding: 120px 60px 0;
   box-sizing: border-box;
   height: 100vh;
   position: relative;
@@ -48,9 +56,32 @@ body {
 }
 
 .section .row .content_inner{
-  padding: 60px 30px;
-  background: blue;
+  background: #f1f1f1;
+  min-height: 55rem;
+  min-width: 380px;
+  width: 100%;
 }
+
+/* main title Text */
+.textAni{
+  position: relative;
+  display: block;
+  font-size: 60px;
+  line-height: 20px;
+  width: auto;
+}
+
+/* footer */
+.footer{
+  width: 100%;
+  height: 100px;
+  position: flex;
+  align-items: flex-end;
+  flex-flow: column;
+  float: bottom
+  bottom: 20px;
+}
+
 
 /* swiper */
 .swiper-container{
@@ -61,5 +92,4 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
