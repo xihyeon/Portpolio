@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+body, html {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  font-size: 12px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  padding-top: 20px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+#header .logo {
+  flex: left;
+  margin-left: 60px;
+}
+
+#header .gnb_menu ul {
+  margin-right: 60px;
+}
+
+#header .gnb_menu ul li {
+  float: left;
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+#header .gnb_menu ul li a {
+  color: black;
+}
+
+#wrap .section {
+  position: relative;
+}
+
+#wrap .section .row {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 120px 60px 0;
+  position: relative;
+  width: 100vw;
+}
+
+/* textBox */
+.mainSecTit{
+  background: red;
+  min-height: 500px;
+}
+.mainSecTit .textAni{
+  position: relative;
+  top:30px;
+  font-size: 40px;
+}
+.mainSecTit .discription{
+  position: relative;
+  top: 100px;
+}
+
+.discription {
+  font-size: 14px;
+}
+
+#footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  bottom: 50px;
+  padding: 0 60px;
+  z-index: 50;
+  box-sizing: border-box;
+}
+
+#footer ul {
+  position: relative;
+}
+
+#footer ul:first-child {
+  float: right;
+  margin-right: 20px;
+}
+
+#footer ul:first-child > li:first-child {
+  margin-left: 0;
+}
+
+#footer ul:last-child {
+  float: left;
+  margin-left: -30px;
+}
+
+#footer ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  background: pink;
+  display: flex;
+  font-size: 18px;
+  height: 100vh;
+  text-align: left;
+  width: 100vw;
+}
