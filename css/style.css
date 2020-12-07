@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Song+Myung&display=swap');
 body, html {
   height: 100vh;
   width: 100vw;
@@ -11,7 +12,7 @@ body, html {
 }
 
 body {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 * {
@@ -22,6 +23,9 @@ body {
 a {
   text-decoration: none;
   color: #d0c08d;
+}
+a:hover{
+  color: #f1eacd;
 }
 
 ul, li {
@@ -34,7 +38,7 @@ ul, li {
   justify-content: space-between;
   height: 40px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 40px;
   overflow: hidden;
   z-index: 10;
   min-width: 1600px;
@@ -42,8 +46,11 @@ ul, li {
 }
 
 #header .logo {
-  flex: left;
+  float: left;
   margin-left: 60px;
+}
+#header .logo a{
+  line-height: 50px;
 }
 
 #header .gnb_menu ul {
@@ -85,25 +92,42 @@ ul, li {
 /* textBox */
 .mainSecTit{
   min-height: 500px;
-  padding-top: 3%;
+  padding-top: 4%;
 }
 .mainSecTit .textAni{
   position: relative;
   top:50px;
+  letter-spacing: -2.4px;
   font-size: 40px;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
   color: #d0c08d;
+  line-height: 60px;
   text-shadow:-1px -1px #f1eacd, +1px +1px #666;
 }
 .mainSecTit .textAni:nth-child(1){
-  font-weight: 300;
+  font-weight: 200;
 }
 .mainSecTit .textAni:nth-child(2){
   font-weight: 500;
 }
 .mainSecTit .discription{
+  display: block;
   color: #aaa994;
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
   position: relative;
-  top: 100px;
+  top: 80px;
+  line-height: 25px;
+}
+.mainSecTit p:nth-child(3){
+  margin-bottom: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+}
+.mainSecTit p:nth-child(6){
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .discription {
@@ -116,6 +140,7 @@ ul, li {
   width: 100%;
   height: 30px;
   min-height: 30px;
+  font-size: 16px;
   bottom: 80px;
   padding: 0 60px;
   z-index: 300;
