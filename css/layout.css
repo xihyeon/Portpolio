@@ -189,17 +189,17 @@ html, body {
 #portpolio .swiper2 {
   position: absolute;
   width: 60rem;
-  height: 70rem;
+  height: auto;
   background: red;
 }
 
-#portpolio .swiper2 .swiper-wrapper {
+#portpolio .swiper2 > .swiper-wrapper {
   overflow: hidden;
   width: 60rem;
-  height: 100vh;
+  height: 100%;
 }
 
-#portpolio .swiper2 .swiper-wrapper .swiper-slide {
+#portpolio .swiper2 > .swiper-wrapper .swiper-slide {
   position: relative;
   width: 60rem;
   height: 30rem;

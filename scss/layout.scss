@@ -151,12 +151,12 @@ html, body{
   .swiper2{
     position: absolute;
     width: 60rem;
-    height: 70rem;
+    height: auto;
     background: red;
-    & .swiper-wrapper{
+    & >.swiper-wrapper{
       overflow: hidden;
       width: 60rem;
-      height: 100vh;
+      height: 100%;
       &  .swiper-slide{
         position: relative;
         width: 60rem;

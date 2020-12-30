@@ -13,13 +13,12 @@ $(function(){
 
   var swiper = new Swiper('.swiper2', {
     direction: 'vertical',
-    slidesPerView: 1,
+    slidesPerView: 3,
     spaceBetween: 30,
-    parallax: true,
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
-      type: 'progressbar',
-      draggable: true
+      clickable: true,
     },
   });
 
