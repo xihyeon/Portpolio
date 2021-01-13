@@ -1,110 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+ <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<title>portpolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<!-- scss -->
-	<link rel="stylesheet" href="css/style.css">
+ <head>
+   <meta charset="UTF-8">
+   <title>portfolio</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+   <!-- sass page -->
+   <link rel="stylesheet" href="css/style.css">
 
-	<!--[if lt IE 9]>
-			<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-</head>
+   <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
 
-<body>
-	<div id="wrap">
-		<!-- header -->
-		<header id="header">
-			<h1 id="logo"><a href="#home">Portpolio</a></h1>
-			<!-- menu_button -->
-			<div class="menu_button">
-				<div class="bar"></div>
-				<div class="bar"></div>
-				<div class="bar"></div>
-			</div>
-			<!-- top menu -->
-			<nav id="gnb_menu">
-				<ul id="gnb">
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#portpolio">PORTPOLIO</a></li>
-					<li><a href="#other">OTHER</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
-			</nav>
-		</header>
-		<!-- //header -->
-		<!-- main -->
-		<main id="main" class="swiper-container swiper1">
-			<div id="content" class="swiper-wrapper">
-				<section id="home" class=" swiper-slide">
-					<div class="home-inner">
-						<img data-val="3" src="image/cover/cover_main_img.png" class="img-single layer">
-						<img data-val="-1" src="image/cover/cover_title.png" class="img-single layer">
-						<img data-val="-1" src="image/cover/cover_main_mark.png" class="img-single layer">
-						<div data-val="-1" class="img-single layer">交集合.intersection </div>
-						<div data-val="-1" class="img-single layer">
-							취향과 지식의 교집합을 찾아<br>디자인하는 이지현입니다
-						</div>
-						<div data-val="3" class="img-single layer">
-							<a href="image/cover/portpolio.pdf">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" fill="#cab882" width="18px"  height="18px" top="10px" ><path d="M0 0h24v24H0z" fill="none"/><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>PDF 포트폴리오
-									Download
-							</a>
-						</div>
+ <body>
+   <div id="wrap">
+     <!-- header -->
+     <header id="header">
+       <h1 id="logo"><a href="#home">Portpolio</a></h1>
+       <!-- menu_button -->
+       <div class="menu_button">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+       </div>
+       <!-- top menu -->
+       <nav id="gnb_menu">
+         <ul id="gnb">
+           <li><a href="#about">ABOUT</a></li>
+           <li><a href="#portpolio">PUBLISHING</a></li>
+           <li><a href="#portpolio">PORTPOLIO</a></li>
+           <li><a href="#contact">CONTACT</a></li>
+         </ul>
+       </nav>
+     </header>
+     <!-- //header -->
+   </div>
+   <!-- Swiper -->
+   <main id="main">
+     <div class="swiper-container">
+       <div id="content" class="swiper-wrapper">
+         <div id="home" class="swiper-slide">
+           <div class="home-inner">
+             <img data-val="3" src="image/cover/cover_main_img.png" class="img-single layer">
+             <img data-val="-1" src="image/cover/cover_title.png" class="img-single layer">
+             <img data-val="-1" src="image/cover/cover_main_mark.png" class="img-single layer">
+             <div data-val="-1" class="img-single layer">
+               交集合.intersection
+             </div>
+             <div data-val="-1" class="img-single layer">
+               취향과 지식의 교집합을 찾아<br>디자인하는 이지현입니다
+             </div>
+             <div data-val="3" class="img-single layer">
+               <a href="image/cover/portpolio.pdf">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 24" fill="#cab882" width="18px" height="18px" top="10px">
+                   <path d="M0 0h24v24H0z" fill="none" />
+                   <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+                 </svg>PDF 포트폴리오
+                 Download
+               </a>
+             </div>
+           </div>
+         </div>
+         <div id="about" class="swiper-slide">
+           <div class="curcle"></div>
+           <div class="curcle"></div>
+           <div class="about_inner">
+             <div class="profile_wrap">
+               <div class="profile">
+                 <div class="p_bgCurcle">
+                   <div class="profile_curcle"></div>
+                 </div>
+                 <div class="p_bgCurcle">
+                   <h3>profile</h3>
+                 </div>
+               </div>
+                <div class="profile_info">
+                  <div class="title">
+                    LEE-JI-HYUN
+                  </div>
+                  <p>1997.10.22</p>
+                  <p>010.3225.2400</p>
+                  <p>xihyeon.lee@gmail.com</p>
+                </div>
+             </div>
+             <div class="profile_content">
+               <div class="about_top">
+                 <div class="about_title">
+                   교집합을 찾는<br><strong>디자이너 이지현</strong>
+                 </div>
+                 <p>
+                   디자이너는 자기만의 세계를 보여주는 것이 아닌 <strong>협업하는 작업</strong>이라고 생각합니다
+                    다른이가 <strong>A를 생각하고 제가 B를 생각하고 있다면 원활한 소통</strong>을 통해 <strong>그 사이를
+                    맞추어 가야된다</strong>고 생각합니다. 교집합을 찾는 것이 아직은 미숙하지  어느 장소에서든
+                    <strong>교집합을 찾는 디자이너</strong>가 되고 싶은 이지현입니다.
+                 </p>
+               </div>
+               <div class="about_RecordWrap">
+                 <div class="about_RecordTit">
+                   <div class="about_RecordList">
+                     <div class="title">
+                       EDUCATION
+                     </div>
+                     <ul>
+                       <li>순천대학교 영상디자인 전공</li>
+                       <li>순천대학교 영상디자인 전공 졸업</li>
+                     </ul>
+                   </div>
+                   <div class="about_RecordList">
+                     <div class="title">
+                       certifcate
+                     </div>
+                     <ul>
+                       <li>운전면허증 2종 취득</li>
+                       <li>autodesk FUSION 360</li>
+                     </ul>
+                   </div>
+                 </div>
+                 <div class="about_RecordTit">
+                   <div class="about_RecordList">
+                     <div class="title">
+                       history
+                     </div>
+                     <ul>
+                       <li><em>2016.1.9-2.10</em>돌봄교실 대학생 봉사단</li>
+                       <li>'태전초등학교'예체능 프로그램운영 및 학생지도</li>
+                       <li>영상디자인과 과대</li>
+                     </ul>
+                   </div>
+                   <div class="about_RecordList">
+                     <div class="title">
+                       skill
+                     </div>
+                     <ul>
+                       <li>photoshop/illustrator</li>
+                       <li>photography</li>
+                       <li>html/css/sass</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div id="publishing" class="swiper-slide">
+           <div class="swiper-container-v">
+             <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                 <div class="publi_wrap">
+                   <div class="publi_img_box">
+                     <div class="p_img"></div>
+                   </div>
+                   <div class="p_txt_box">
+                     <div class="sub_tit">
+                       <img src="image/publishing/p_sub_img.png" alt="">
+                     </div>
+                     <h2 class="p_title">
+                       <strong>서울시</strong>&nbsp;퍼블리싱
+                     </h2>
+                     <div class="p_dd">
+                       <p>project: 서울시 퍼블리싱</p>
+                       <p>Tool: html, (css)sass , jquery</p>
+                     </div>
+                     <div class="btn_wrap">
+                       <div class="btn">
+                         <a href="https://www.seoul.go.kr/main/index.jsp">
+                           오리지널
+                         </a>
+                       </div>
+                       <div class="btn">
+                         <a href="https://xihyeon.github.io/seoul.site/#">
+                            퍼블리싱
+                         </a>
+                       </div>
+                     </div>
+                   </div>
 
+                 </div>
+               </div>
+               <div class="swiper-slide">
+                 <div class="publi_wrap">
+                   <div class="publi_img_box">
+                     <div class="p_img gova"></div>
+                   </div>
+                   <div class="p_txt_box">
+                     <div class="sub_tit">
+                       <img src="image/publishing/p_sub_img2.png" alt="">
+                     </div>
+                     <h2 class="p_title gova">
+                       <strong>고바슨</strong>&nbsp;퍼블리싱
+                     </h2>
+                     <div class="p_dd">
+                       <p>project: 템플릿을 활용한 유지보수 작업</p>
+                       <p>Tool: html, (css)sass</p>
+                     </div>
+                     <div class="btn_wrap">
+                       <div class="btn gova">
+                         <a href="https://xihyeon.github.io/govason/index.html">
+                            퍼블리싱
+                         </a>
+                       </div>
+                     </div>
+                   </div>
 
-					</div>
-					<!-- //about inner -->
-				</section>
-				<section id="about" class="swiper-slide">
-					<img  class="main_img layer" data-speed="-5">
-					<div></div>
-				</section>
-				<section id="portpolio" class="swiper-slide">
-					<div class="swiper-container swiper2">
-						<div class="swiper-wrapper port-wrapper">
-							<div class="swiper-slide port">서울시</div>
-							<div class="swiper-slide port">마샬</div>
-							<div class="swiper-slide port">서울시</div>
-							<div class="swiper-slide port">마샬</div>
-							<div class="swiper-slide port">서울시</div>
-							<div class="swiper-slide port">마샬</div>
+                 </div>
+               </div>
+             </div>
+              <div class=" swiper-pagination swiper-pagination-v"></div>
+           </div>
+         </div>
+         <div id="portpolio" class="swiper-slide">
+            <div class="portfolio_inner">
+              <div class="portfolio_list">
+                <div class="gbtn"><a href="#">보6</a></div>
+              </div>
+              <div class="portfolio_list">
+                <div class="gbtn"><a href="#">보6</a></div>
+              </div>
+              <div class="portfolio_list">
+                <div class="gbtn"><a href="#">보6</a></div>
+              </div>
+              <div class="portfolio_list">
+                <div class="gbtn"><a href="#">보6</a></div>
+              </div>
+              <div class="portfolio_list">
+                <div class="gbtn"><a href="#">보6</a></div>
+              </div>
+            </div>
+         </div>
 
-						</div>
-						<!-- pagination -->
-						<div class="swiper-pagination"></div>
-						<!-- Add Arrows -->
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-					</div>
-				</section>
-				<section id="other" class="swiper-slide">
-				</section>
-				<section id="contact" class="swiper-slide">
-				</section>
+         <div id="contact" class="swiper-slide">
 
-				<!-- Add Pagination -->
-			</div>
-			<div class="swiper-pagination swiper-pagination-white"></div>
-		</main>
-		<!-- //main -->
-		<!-- footer -->
-		<footer id="footer">
-			<ul>
-				<li><a href="https://github.com/xihyeon">Github</a></li>
-				<li><a href="#">blog</a></li>
-			</ul>
-		</footer>
-		<!-- //footer -->
-	</div>
-	<!-- //wrap -->
-	<!-- Swiper JS -->
-	<!-- Initialize Swiper -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="js/common.js"></script>
-</body>
+         </div>
+       </div>
+       <!-- Add Pagination -->
+       <div class="swiper-pagination"></div>
+     </div>
+   </main>
+   <!-- footer -->
+   <footer id="footer">
+     <ul>
+       <li><a href="https://github.com/xihyeon">Github</a></li>
+       <li><a href="#">blog</a></li>
+     </ul>
+     <ul class="f_right">
+       <li><a href="#">010-3225-2400</a></li>
+       <li><a href="#">xihyeon.lee@gmail.com</a></li>
+     </ul>
+   </footer>
+   <!-- //footer -->
+   <!-- Swiper JS -->
+   <script src="js/jquery.js"></script>
+   <script src="js/swiper.js"></script>
+   <script src="js/common.js"></script>
 
-</html>
+   <script>
+     var swiper = new Swiper('.swiper-container', {
+       speed: 600,
+       direction: 'vertical',
+       autoHeight: true,
+       scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+       mousewheel: true,
+       pagination: {
+         el: '.swiper-pagination',
+         type: 'progressbar',
+       },
+       navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+       },
+     });
+     var swiperV = new Swiper('.swiper-container-v', {
+     pagination: {
+       el: '.swiper-pagination-v',
+       clickable: true,
+     },
+   });
+   </script>
+ </body>
+
+ </html>
