@@ -1496,6 +1496,33 @@ ul, ol {
   background-size: cover;
 }
 
+#contact .btn_wrap {
+  position: relative;
+  margin-top: 200px;
+  width: auto;
+}
+
+#contact .btn_wrap .btn {
+  display: inline-block;
+  color: #cab882;
+  width: auto;
+  padding: 0 20px;
+}
+
+#contact .btn_wrap .btn a {
+  border-radius: 13px;
+  width: auto;
+  height: 30px;
+  padding: 0 30px;
+  color: #cab882;
+  border-radius: 1px solid #cab882;
+  line-height: 30px;
+}
+
+#contact .btn_wrap .btn a:hover {
+  color: #02542b;
+}
+
 /*//main*/
 /*footer*/
 #footer {

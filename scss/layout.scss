@@ -571,6 +571,29 @@ ul,ol{ list-style: none; }
   background-image: url('../image/last_section_bg.jpg');
   background-position: center center;
   background-size: cover;
+  .btn_wrap{
+    position: relative;
+    margin-top: 200px;
+    width: auto;
+    .btn{
+      display: inline-block;
+      color: #cab882;
+      width: auto;
+      padding: 0 20px;
+      a{
+        border-radius: 13px;
+        width: auto;
+        height: 30px;
+        padding: 0 30px;
+        color: #cab882;
+        border-radius: 1px solid #cab882;
+        line-height: 30px;
+        &:hover{
+          color: #02542b;
+        }
+      }
+    }
+  }
 }
 /*//main*/
 
