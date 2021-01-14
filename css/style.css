@@ -1507,6 +1507,11 @@ ul, ol {
   color: #cab882;
   width: auto;
   padding: 0 20px;
+  background-color: none;
+}
+
+#contact .btn_wrap .btn:hover a {
+  color: #02542b;
 }
 
 #contact .btn_wrap .btn a {
